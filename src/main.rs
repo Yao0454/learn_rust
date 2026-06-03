@@ -1,3 +1,6 @@
 fn main() {
-    println!("Hello, world!");
+    let m = String::from("Hello Rust!!");
+    let n = m.clone();
+
+    println!("{m}");
 }
