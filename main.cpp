@@ -10,6 +10,7 @@ int get_reverse(int x) {
     reverse = reverse * 10 + digit;
     x /= 10;
   }
+  // return a reversed number
   return reverse;
 }
 
