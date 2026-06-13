@@ -1,6 +1,4 @@
-fn main() {
-    let m = String::from("Hello Rust!!");
-    let n = m.clone();
+use std::io;
 
     println!("{m}");
 }
